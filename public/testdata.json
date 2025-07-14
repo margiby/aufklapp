@@ -1,0 +1,42 @@
+{
+  "komponenten": {
+    "nodes": [
+      { "id": "k-hws", "data": { "label": "Heißwasserspeicher" } },
+      { "id": "k-biomassekessel", "data": { "label": "Biomassekessel" } },
+      { "id": "k-bhkw", "data": { "label": "Gas-BHKW" } },
+      { "id": "k-waermetauscher", "data": { "label": "Wärmetauscher" } }
+    ],
+    "edges": [
+      { "id": "k-e1", "source": "k-biomassekessel", "target": "k-hws" },
+      { "id": "k-e2", "source": "k-bhkw", "target": "k-hws" },
+      { "id": "k-e3", "source": "k-hws", "target": "k-waermetauscher" }
+    ]
+  },
+  "versorgungskonzepte": {
+    "nodes": [
+      { "id": "tech4biowaste", "data": { "label": "TECH FOR BIOWASTE" }, "className": "tech-logo-node" },
+      { "id": "feedstocks", "data": { "label": "Feedstocks" }, "className": "tech-category-node" },
+      { "id": "food-waste", "data": { "label": "Food waste" }, "className": "tech-item-node" },
+      { "id": "garden-park-waste", "data": { "label": "Garden and park waste" }, "className": "tech-item-node" },
+      { "id": "technologies", "data": { "label": "Technologies" }, "className": "tech-category-node" },
+      { "id": "pre-processing", "data": { "label": "Pre-processing" }, "className": "tech-item-node" },
+      { "id": "conversion", "data": { "label": "Conversion" }, "className": "tech-item-node" },
+      { "id": "post-processing", "data": { "label": "Post-processing" }, "className": "tech-item-node" },
+      { "id": "pilot-demo", "data": { "label": "Pilot and demo facilities" }, "className": "tech-item-node" },
+      { "id": "products", "data": { "label": "Products" }, "className": "tech-category-node" },
+      { "id": "chemicals", "data": { "label": "Chemicals" }, "className": "tech-item-node" },
+      { "id": "energy-fuels", "data": { "label": "Energy and fuels" }, "className": "tech-item-node" },
+      { "id": "food-ingredients", "data": { "label": "Food ingredients" }, "className": "tech-item-node" },
+      { "id": "materials", "data": { "label": "Materials" }, "className": "tech-item-node" }
+    ],
+    "edges": [
+      { "source": "tech4biowaste", "target": ["feedstocks", "technologies", "products"] },
+      { "source": "feedstocks", "target": ["food-waste", "garden-park-waste"] },
+      { "source": "technologies", "target": ["pre-processing", "conversion", "post-processing"] },
+      { "source": "pre-processing", "target": "pilot-demo" },
+      { "source": "conversion", "target": "pilot-demo" },
+      { "source": "post-processing", "target": "pilot-demo" },
+      { "source": "products", "target": ["chemicals", "energy-fuels", "food-ingredients", "materials"] }
+    ]
+  }
+}

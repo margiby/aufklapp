@@ -1,0 +1,4103 @@
+[
+{
+    "model": "processes.refersto",
+    "pk": 126,
+    "fields": {
+        "name_german": "pro Vollbenutzungsstunde",
+        "name_english": "per full load hour"
+    }
+},
+{
+    "model": "processes.refersto",
+    "pk": 127,
+    "fields": {
+        "name_german": "pro Jahresnutzungsstunde",
+        "name_english": "per annual use hour"
+    }
+},
+{
+    "model": "processes.refersto",
+    "pk": 128,
+    "fields": {
+        "name_german": "pro Jahr",
+        "name_english": "per year"
+    }
+},
+{
+    "model": "processes.refersto",
+    "pk": 129,
+    "fields": {
+        "name_german": "pro Produkteinheit(en)",
+        "name_english": "per product unit(s)"
+    }
+},
+{
+    "model": "processes.refersto",
+    "pk": 130,
+    "fields": {
+        "name_german": "pro ha",
+        "name_english": "per hectar"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 476,
+    "fields": {
+        "name_german": "abstraktes Material",
+        "name_english": "abstract matter"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 477,
+    "fields": {
+        "name_german": "Strom",
+        "name_english": "power"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 478,
+    "fields": {
+        "name_german": "Wärme",
+        "name_english": "heat"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 479,
+    "fields": {
+        "name_german": "Brennstoff ",
+        "name_english": "fuel"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 480,
+    "fields": {
+        "name_german": "Agrar-Rohstoff",
+        "name_english": "agricultural comodity"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 481,
+    "fields": {
+        "name_german": "Agrar-Reststoff pflanzlich",
+        "name_english": "agricultural residue herbal"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 482,
+    "fields": {
+        "name_german": "Agrar-Reststoff tierisch",
+        "name_english": "agricultural residue animal"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 483,
+    "fields": {
+        "name_german": "Forst-Rohstoff",
+        "name_english": "forestry comodity"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 484,
+    "fields": {
+        "name_german": "Forst-Reststoff",
+        "name_english": "forestry residue"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 485,
+    "fields": {
+        "name_german": "Landschaftspflege Reststoff",
+        "name_english": "landscape maintenance residue"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 486,
+    "fields": {
+        "name_german": "industrielle Reststoffe",
+        "name_english": "industrial residue"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 487,
+    "fields": {
+        "name_german": "Siedlungsabfall",
+        "name_english": "municipality waste"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 488,
+    "fields": {
+        "name_german": "fossiler Energieträger",
+        "name_english": "fossil energy carrier"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 489,
+    "fields": {
+        "name_german": "Grundchemikalie",
+        "name_english": "basic chemistry"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 490,
+    "fields": {
+        "name_german": "Strahlungsenergie",
+        "name_english": "radiation energy"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 491,
+    "fields": {
+        "name_german": "marine Biomasse",
+        "name_english": "marine biomass"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 492,
+    "fields": {
+        "name_german": "Negativemissionen",
+        "name_english": "negative emissions"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 493,
+    "fields": {
+        "name_german": "Kohlenstofffestlegung",
+        "name_english": "carbon immobilisation"
+    }
+},
+{
+    "model": "processes.xductcategory",
+    "pk": 494,
+    "fields": {
+        "name_german": "undefiniert",
+        "name_english": "undefined"
+    }
+},
+{
+    "model": "processes.stateofmatter",
+    "pk": 126,
+    "fields": {
+        "name_german": "fest",
+        "name_english": "solid"
+    }
+},
+{
+    "model": "processes.stateofmatter",
+    "pk": 127,
+    "fields": {
+        "name_german": "flüssig",
+        "name_english": "liquid"
+    }
+},
+{
+    "model": "processes.stateofmatter",
+    "pk": 128,
+    "fields": {
+        "name_german": "gasförmig",
+        "name_english": "gaseous"
+    }
+},
+{
+    "model": "processes.stateofmatter",
+    "pk": 129,
+    "fields": {
+        "name_german": "energie",
+        "name_english": "energy"
+    }
+},
+{
+    "model": "processes.stateofmatter",
+    "pk": 130,
+    "fields": {
+        "name_german": "undefiniert",
+        "name_english": "undefined"
+    }
+},
+{
+    "model": "processes.xducttype",
+    "pk": 176,
+    "fields": {
+        "name_german": "Edukt",
+        "name_english": "educt"
+    }
+},
+{
+    "model": "processes.xducttype",
+    "pk": 177,
+    "fields": {
+        "name_german": "Produkt",
+        "name_english": "product"
+    }
+},
+{
+    "model": "processes.xducttype",
+    "pk": 178,
+    "fields": {
+        "name_german": "Leakage",
+        "name_english": "leakage"
+    }
+},
+{
+    "model": "processes.xducttype",
+    "pk": 179,
+    "fields": {
+        "name_german": "Edukt & Produkt",
+        "name_english": "educt & product"
+    }
+},
+{
+    "model": "processes.xducttype",
+    "pk": 180,
+    "fields": {
+        "name_german": "Edukt & Leakage",
+        "name_english": "educt & leakage"
+    }
+},
+{
+    "model": "processes.xducttype",
+    "pk": 181,
+    "fields": {
+        "name_german": "Produkt & Leakage",
+        "name_english": "product & leakage"
+    }
+},
+{
+    "model": "processes.xducttype",
+    "pk": 182,
+    "fields": {
+        "name_german": "Produkt & Edukt & Leakage",
+        "name_english": "product & educt & leakage"
+    }
+},
+{
+    "model": "processes.conversionclass1",
+    "pk": 9,
+    "fields": {
+        "name_german": "chemisch",
+        "name_english": "chemical"
+    }
+},
+{
+    "model": "processes.conversionclass1",
+    "pk": 10,
+    "fields": {
+        "name_german": "biochemisch",
+        "name_english": "biochemical"
+    }
+},
+{
+    "model": "processes.conversionclass1",
+    "pk": 11,
+    "fields": {
+        "name_german": "katalytisch",
+        "name_english": "catalytic"
+    }
+},
+{
+    "model": "processes.conversionclass1",
+    "pk": 12,
+    "fields": {
+        "name_german": "physikalisch",
+        "name_english": "physical"
+    }
+},
+{
+    "model": "processes.conversionclass1",
+    "pk": 13,
+    "fields": {
+        "name_german": "physikochemisch",
+        "name_english": "physico-chemical"
+    }
+},
+{
+    "model": "processes.conversionclass1",
+    "pk": 14,
+    "fields": {
+        "name_german": "thermochemisch",
+        "name_english": "thermo-chemical"
+    }
+},
+{
+    "model": "processes.conversionclass1",
+    "pk": 15,
+    "fields": {
+        "name_german": "Landnutzung",
+        "name_english": "land use"
+    }
+},
+{
+    "model": "processes.conversionclass1",
+    "pk": 16,
+    "fields": {
+        "name_german": "stoffliche Biomassenutzung",
+        "name_english": "material use of biomass"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 136,
+    "fields": {
+        "name_german": "Industrie",
+        "name_english": "industry"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 137,
+    "fields": {
+        "name_german": "Verkehr",
+        "name_english": "mobility"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 138,
+    "fields": {
+        "name_german": "Haushalte",
+        "name_english": "households"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 139,
+    "fields": {
+        "name_german": "GHD",
+        "name_english": "TCS"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 140,
+    "fields": {
+        "name_german": "Energiewirtschaft",
+        "name_english": "energy economy"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 141,
+    "fields": {
+        "name_german": "Landwirtschaft",
+        "name_english": "agriculture"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 142,
+    "fields": {
+        "name_german": "Abfallwirtschaft",
+        "name_english": "waste management"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 143,
+    "fields": {
+        "name_german": "Fernwärme",
+        "name_english": "district heating"
+    }
+},
+{
+    "model": "processes.supplysector",
+    "pk": 144,
+    "fields": {
+        "name_german": "undefiniert",
+        "name_english": "undefined"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 521,
+    "fields": {
+        "name_german": "Stromerzeuger",
+        "name_english": "power generation"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 522,
+    "fields": {
+        "name_german": "KWK-Erzeugung",
+        "name_english": "combined heat and power generation"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 523,
+    "fields": {
+        "name_german": "Wärmeerzeugung",
+        "name_english": "heat generation"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 524,
+    "fields": {
+        "name_german": "Biokraftstoffproduktion",
+        "name_english": "biofuel production"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 525,
+    "fields": {
+        "name_german": "Elektrolyse-Synthese-Kraftstoffproduktion",
+        "name_english": "electrical synthetic fuel production"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 526,
+    "fields": {
+        "name_german": "Konventionelle Kraftstoffproduktion",
+        "name_english": "conventional fuel production"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 527,
+    "fields": {
+        "name_german": "Kohlenstoffdoxidabscheidung",
+        "name_english": "carbon dioxide capture"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 528,
+    "fields": {
+        "name_german": "Kohlestoffretention",
+        "name_english": "carbon retention"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 529,
+    "fields": {
+        "name_german": "Methanetnnahme",
+        "name_english": "methane removal"
+    }
+},
+{
+    "model": "processes.processchaintype",
+    "pk": 530,
+    "fields": {
+        "name_german": "undefiniert",
+        "name_english": "undefined"
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2664,
+    "fields": {
+        "name_german": "Biomeiler zur gesteuerten Kompostierung",
+        "name_english": "Bio-pile for controlled composting",
+        "acronym_german": "Biomeiler",
+        "acronym_english": "bio-pile",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2665,
+    "fields": {
+        "name_german": "Biogasanlage (BGA) mit Vor-Ort-Verstromung",
+        "name_english": "biogas plant with local cogeneration",
+        "acronym_german": "BGA_VOV",
+        "acronym_english": "BGP_LC",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2666,
+    "fields": {
+        "name_german": "BGA mit Gasaufbereitung und Einspeisung",
+        "name_english": "biogas plant with upgrading and feed in",
+        "acronym_german": "BGA_GAE",
+        "acronym_english": "BGA_UGFI",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2667,
+    "fields": {
+        "name_german": "BGA mit Gasaufbereitung und CNG-Tankstelle",
+        "name_english": "biogas plant with upgrading and feed CNR filling station",
+        "acronym_german": "BGA_GAT",
+        "acronym_english": "BGA_UGFS",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2668,
+    "fields": {
+        "name_german": "BGA mit Gasaufbereitung, Elektrolyse und Einspeisung",
+        "name_english": "biogas plant with upgrading, electrolyser and feed in",
+        "acronym_german": "BGA_GAE+",
+        "acronym_english": "BGA_UGEF",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2669,
+    "fields": {
+        "name_german": "Biomethananlage für NawaRo",
+        "name_english": "biomethane form renewable sources",
+        "acronym_german": "BMA_NWR",
+        "acronym_english": "BMP_RS",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2670,
+    "fields": {
+        "name_german": "Biomethananlage für Abfall- und Reststoffe",
+        "name_english": "biomethane from residues and waste",
+        "acronym_german": "BMA_AUR",
+        "acronym_english": "BMP_RW",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2671,
+    "fields": {
+        "name_german": "Bioethanolanlage für Zuckerrüben",
+        "name_english": "bioethanol plant for suger beets",
+        "acronym_german": "BEOH_ZR",
+        "acronym_english": "BENP_SB",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2672,
+    "fields": {
+        "name_german": "Bioethanolanlage für Getreidestärke",
+        "name_english": "bioethanol plant for grain starch",
+        "acronym_german": "BEOH_GS",
+        "acronym_english": "BENP_GS",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2673,
+    "fields": {
+        "name_german": "Bioethanolanlage für Ligoncellulose",
+        "name_english": "bioethanol plant for lignocellulose",
+        "acronym_german": "BEOH_LC",
+        "acronym_english": "BENP_LC",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2674,
+    "fields": {
+        "name_german": "Bioethanolanlage für Rohrzucker",
+        "name_english": "bioethanol plant for cane sugar",
+        "acronym_german": "BEOH_RZ",
+        "acronym_english": "BENP_CS",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2675,
+    "fields": {
+        "name_german": "Rapsmethylestheranlage",
+        "name_english": "rape-seed methyl ester ",
+        "acronym_german": "RME",
+        "acronym_english": "RME",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2676,
+    "fields": {
+        "name_german": "Altspeiseölversehterungsanalge",
+        "name_english": "used cooking oil methyl ester ",
+        "acronym_german": "AÖME",
+        "acronym_english": "UCOME",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2677,
+    "fields": {
+        "name_german": "Tierfettmethylestheranalge",
+        "name_english": "animal fat methyl esther plant",
+        "acronym_german": "TME",
+        "acronym_english": "AFME",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2678,
+    "fields": {
+        "name_german": "Palmölmethylesther",
+        "name_english": "palm oil methyl esther plant",
+        "acronym_german": "PME",
+        "acronym_english": "PME",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2679,
+    "fields": {
+        "name_german": "Soyaölmethylsäureesther",
+        "name_english": "soy oil methyl esther plant",
+        "acronym_german": "SME",
+        "acronym_english": "SME",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2680,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Rapsöl",
+        "name_english": "hydrotreating-vegetable-oils from rape seed",
+        "acronym_german": "HVO_RS",
+        "acronym_english": "HVO_RS",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2681,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Palmöl",
+        "name_english": "hydrotreating-vegetable-oils from palm oil",
+        "acronym_german": "HVO_PÖ",
+        "acronym_english": "HVO_PO",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2682,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Altspeiseöl",
+        "name_english": "hydrotreating-vegetable-oils from UCO",
+        "acronym_german": "HVO_AÖ",
+        "acronym_english": "HVO_UCO",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2683,
+    "fields": {
+        "name_german": "Synthesegasanalge für feste Biomasse",
+        "name_english": "synthetic natrual gas productions",
+        "acronym_german": "SNG",
+        "acronym_english": "SNG",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2684,
+    "fields": {
+        "name_german": "Biomass-to-Liquid-Anlage",
+        "name_english": "biomass to liquid plant",
+        "acronym_german": "BtL",
+        "acronym_english": "BtL",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2685,
+    "fields": {
+        "name_german": "Power-to-Gas - Methanproduktion",
+        "name_english": "power to gas methane production",
+        "acronym_german": "PtG_CH4",
+        "acronym_english": "PtG_CH4",
+        "type": 525
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2686,
+    "fields": {
+        "name_german": "Power-to-Gas - Wasserstoffproduktion",
+        "name_english": "power to gas hydrogen production",
+        "acronym_german": "PtG_H2",
+        "acronym_english": "PtG_H2",
+        "type": 525
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2687,
+    "fields": {
+        "name_german": "Power-to-Liquid-Produktion",
+        "name_english": "power to liquid production",
+        "acronym_german": "PtL",
+        "acronym_english": "PtL",
+        "type": 525
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2688,
+    "fields": {
+        "name_german": "Liquified Petroleoum Gas",
+        "name_english": "liquified petroleoum gas",
+        "acronym_german": "LPG",
+        "acronym_english": "LPG",
+        "type": 526
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2689,
+    "fields": {
+        "name_german": "Compressed Natrual Gas",
+        "name_english": "compressed natrual gas",
+        "acronym_german": "CNG",
+        "acronym_english": "CNG",
+        "type": 526
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2690,
+    "fields": {
+        "name_german": "Liquified Natrual Gas",
+        "name_english": "liquified natrual gas",
+        "acronym_german": "LNG",
+        "acronym_english": "LNG",
+        "type": 526
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2691,
+    "fields": {
+        "name_german": "Biomethanolanlage",
+        "name_english": "biomethanol plant",
+        "acronym_german": "MEOH",
+        "acronym_english": "MEOH",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2692,
+    "fields": {
+        "name_german": "Wasserstoffproduktionsanlage für Biomasse",
+        "name_english": "hydrogen production plant from biomass",
+        "acronym_german": "WSA_BM",
+        "acronym_english": "HPP_BM",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2693,
+    "fields": {
+        "name_german": "Pflanzenöl-BHKW",
+        "name_english": "vegetable oil CHPU",
+        "acronym_german": "PÖL_BHKW",
+        "acronym_english": "VO_CHPU",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2694,
+    "fields": {
+        "name_german": "Biomethan-GUD",
+        "name_english": "biomethane CCGT",
+        "acronym_german": "BIOCH4_GUD",
+        "acronym_english": "BIOCH4_CCGT",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2695,
+    "fields": {
+        "name_german": "Biomethan-GT",
+        "name_english": "biomethane GT",
+        "acronym_german": "BIOCH4_GT",
+        "acronym_english": "BIOCH4_GT",
+        "type": 521
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2696,
+    "fields": {
+        "name_german": "Biomethan Brennstoffzelle",
+        "name_english": "biomethane fuel cell",
+        "acronym_german": "BIOCH4_FC",
+        "acronym_english": "BIOCH4_FC",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2697,
+    "fields": {
+        "name_german": "Holzheizkraftwerk",
+        "name_english": "wood power plant",
+        "acronym_german": "HHKW",
+        "acronym_english": "WPP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2698,
+    "fields": {
+        "name_german": "Altholzheizkraftwerk",
+        "name_english": "WW_HPP",
+        "acronym_german": "AH_HKW",
+        "acronym_english": "WWPP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2699,
+    "fields": {
+        "name_german": "Klärschlammvergärung mit Vor-Ort-Verstromung",
+        "name_english": "sewage gas with local cogeneraion",
+        "acronym_german": "KSVG_VOV",
+        "acronym_english": "SG_LC",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2700,
+    "fields": {
+        "name_german": "Papier-Zellstoff-KWK",
+        "name_english": "paper and pulp CHP",
+        "acronym_german": "PZK",
+        "acronym_english": "PP_CHP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2701,
+    "fields": {
+        "name_german": "Holzpellet Holzvergaser-BHKW",
+        "name_english": "wood gasification CHPU",
+        "acronym_german": "HP-HVG_BHKW",
+        "acronym_english": "WG_CHPU",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2702,
+    "fields": {
+        "name_german": "Solarthermieanlage",
+        "name_english": "solar heating system",
+        "acronym_german": "STA",
+        "acronym_english": "SHS",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2703,
+    "fields": {
+        "name_german": "Gastherme",
+        "name_english": "natrual gas boiler",
+        "acronym_german": "GTH",
+        "acronym_english": "NGB",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2704,
+    "fields": {
+        "name_german": "Gasbrennwerttherme",
+        "name_english": "natrual gas condensing boiler",
+        "acronym_german": "GBWTH",
+        "acronym_english": "NGCG",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2705,
+    "fields": {
+        "name_german": "Gasbrennstoffzelle",
+        "name_english": "natrual gas fuel cell",
+        "acronym_german": "GFC",
+        "acronym_english": "NGFC",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2706,
+    "fields": {
+        "name_german": "Luft-Wärmepumpe",
+        "name_english": "air heat pump",
+        "acronym_german": "LWP",
+        "acronym_english": "AHP",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2707,
+    "fields": {
+        "name_german": "Sole-Wärmepumpe",
+        "name_english": "brine heat pump",
+        "acronym_german": "SWP",
+        "acronym_english": "BHP",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2708,
+    "fields": {
+        "name_german": "Braunkohle Kraftwerk",
+        "name_english": "lignite power plant",
+        "acronym_german": "BKKW",
+        "acronym_english": "LPP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2709,
+    "fields": {
+        "name_german": "Steinkohle Kraftwerk",
+        "name_english": "hard coal power plant",
+        "acronym_german": "SKKW",
+        "acronym_english": "HCPP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2710,
+    "fields": {
+        "name_german": "GuD-Kraftwerk",
+        "name_english": "combined cycle power plant",
+        "acronym_german": "GuD",
+        "acronym_english": "CCGT",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2711,
+    "fields": {
+        "name_german": "Gasturbinen-Kraftwerk",
+        "name_english": "open cycle gas power plant",
+        "acronym_german": "GT",
+        "acronym_english": "OCGT",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2712,
+    "fields": {
+        "name_german": "Biomasseverbrenung + CCS",
+        "name_english": "biomass burning + CCS",
+        "acronym_german": "BMVB_CCS",
+        "acronym_english": "BMB_CCS",
+        "type": 527
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2713,
+    "fields": {
+        "name_german": "Biomassevergasung + CCS",
+        "name_english": "biomass gasification + CCS",
+        "acronym_german": "BMVG_CCS",
+        "acronym_english": "BMG_CCS",
+        "type": 527
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2714,
+    "fields": {
+        "name_german": "Bioethanolproduktion + CCS",
+        "name_english": "bioethanol produciton + CCS",
+        "acronym_german": "BEP_CCS",
+        "acronym_english": "BEP_CCS",
+        "type": 527
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2715,
+    "fields": {
+        "name_german": "Biomethanproduktion + CCS",
+        "name_english": "biomethane production + CCS",
+        "acronym_german": "BMP_CCS",
+        "acronym_english": "BMP_CCS",
+        "type": 527
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2716,
+    "fields": {
+        "name_german": "Forstflächenstillegung",
+        "name_english": "shutdown of forestry",
+        "acronym_german": "FFS",
+        "acronym_english": "SOF",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2717,
+    "fields": {
+        "name_german": "Aufforstung",
+        "name_english": "reforestration",
+        "acronym_german": "AF",
+        "acronym_english": "RF",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2718,
+    "fields": {
+        "name_german": "Etablierung von Dauergrünland",
+        "name_english": "creation of permannt pasture",
+        "acronym_german": "EDG",
+        "acronym_english": "CPP",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2719,
+    "fields": {
+        "name_german": "Etablierung von Agroforstsystemen",
+        "name_english": "creation of agro-forestry systems",
+        "acronym_german": "EAF",
+        "acronym_english": "CAF",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2720,
+    "fields": {
+        "name_german": "Nutzung von organischen Düngern und Kompost",
+        "name_english": "use of organic fertilisers and compost",
+        "acronym_german": "ODK",
+        "acronym_english": "OFC",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2721,
+    "fields": {
+        "name_german": "Konservierende Bodenbearbeitung",
+        "name_english": "conservation tillage",
+        "acronym_german": "KBB",
+        "acronym_english": "CTL",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2722,
+    "fields": {
+        "name_german": "Mulchen",
+        "name_english": "mulching",
+        "acronym_german": "MLC",
+        "acronym_english": "MLC",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2723,
+    "fields": {
+        "name_german": "Moorwiedervernässung",
+        "name_english": "rewetting of peatland",
+        "acronym_german": "MWV",
+        "acronym_english": "RWP",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2724,
+    "fields": {
+        "name_german": "Landwirtschadtliche Nutzung von Biokohlen",
+        "name_english": "agricultural use of biochars",
+        "acronym_german": "LNBK",
+        "acronym_english": "AUBC",
+        "type": 528
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2725,
+    "fields": {
+        "name_german": "Biomasse Direktfeuerung",
+        "name_english": "biomass direct furnace",
+        "acronym_german": "B_DF",
+        "acronym_english": "B_DF",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2726,
+    "fields": {
+        "name_german": "Biomethan-BHKW",
+        "name_english": "biomethane CHPU",
+        "acronym_german": "BM_BHKW",
+        "acronym_english": "BM_CHPU",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2727,
+    "fields": {
+        "name_german": "Biomethan Direktfeuerung",
+        "name_english": "biomethane direct furnace",
+        "acronym_german": "BM_DF",
+        "acronym_english": "BM_DF",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2728,
+    "fields": {
+        "name_german": "Biomethan-Gasturbine mit Dampferzeuger",
+        "name_english": "biomethane gas turbine with steam generator",
+        "acronym_german": "BM_GT_DE",
+        "acronym_english": "BM_GT_SG",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2729,
+    "fields": {
+        "name_german": "Steinkohleheizkraftwerk",
+        "name_english": "hard coal fired cogeneration plant",
+        "acronym_german": "SK_HKW",
+        "acronym_english": "HC_CGP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2730,
+    "fields": {
+        "name_german": "Lichtbogenofen",
+        "name_english": "electric arc stove",
+        "acronym_german": "LB_O",
+        "acronym_english": "EA_S",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2731,
+    "fields": {
+        "name_german": "Elektroheizung",
+        "name_english": "electric heater",
+        "acronym_german": "EL_H",
+        "acronym_english": "EL_H",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2732,
+    "fields": {
+        "name_german": "Gasturbinen-Heizkraftwerk",
+        "name_english": "gas turbine ",
+        "acronym_german": "GT_HKW",
+        "acronym_english": "GT_CHP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2733,
+    "fields": {
+        "name_german": "Gas- und Dampfturbinenkraftwerk",
+        "name_english": "combined cycle gas turbine, combined heat and power (CHP)",
+        "acronym_german": "GUD_KW",
+        "acronym_english": "CCGT-CHP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2734,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle",
+        "name_english": "gas fired PEM fuel cell",
+        "acronym_german": "G_PFC",
+        "acronym_english": "G_PFC",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2735,
+    "fields": {
+        "name_german": "Gasbetriebener Dampferzeuger",
+        "name_english": "gas fired steam generator",
+        "acronym_german": "G_DE",
+        "acronym_english": "G_SG",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2736,
+    "fields": {
+        "name_german": "Erdgas-Kessel",
+        "name_english": "natural gas boiler",
+        "acronym_german": "G_K",
+        "acronym_english": "G_B",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2737,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel",
+        "name_english": "gas condensing boiler",
+        "acronym_german": "G_BWK",
+        "acronym_english": "G_CB",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2738,
+    "fields": {
+        "name_german": "Holzhackschnitzel-Retrofit Steinkohleheizkraftwerk",
+        "name_english": "wood chips retro fitted hard coal fired cogeneration plant",
+        "acronym_german": "SK_RF_HKW",
+        "acronym_english": "HC_RF_CGP",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2739,
+    "fields": {
+        "name_german": "Holzhackschnitzelkessel",
+        "name_english": "wood chips boiler",
+        "acronym_german": "HHS_K",
+        "acronym_english": "WC_B",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2740,
+    "fields": {
+        "name_german": "Holzhackschnitzelvergaser-BHKW",
+        "name_english": "wood chips gasification CHPU",
+        "acronym_german": "HHS-HVG_BHKW",
+        "acronym_english": "WC-WG_CHPU",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2741,
+    "fields": {
+        "name_german": "Wärmepumpe",
+        "name_english": "heat pump",
+        "acronym_german": "WP",
+        "acronym_english": "HP",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2742,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe",
+        "name_english": "air-water heat pump",
+        "acronym_german": "LW_WP",
+        "acronym_english": "AW_HP",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2743,
+    "fields": {
+        "name_german": "Hochtemperatur-Wärmepumpe",
+        "name_english": "high temperature heat pump",
+        "acronym_german": "HT_WP",
+        "acronym_english": "HT_HP",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2744,
+    "fields": {
+        "name_german": "Holzgas-Direktfeuerung",
+        "name_english": "wood gas direct feed furnace",
+        "acronym_german": "HV_DF",
+        "acronym_english": "WG_DFF",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2745,
+    "fields": {
+        "name_german": "Holzgas-Gasturbinen-Heizkraftwerk",
+        "name_english": "wood gas gas turbine ",
+        "acronym_german": "HV_GT_HKW",
+        "acronym_english": "WG_CGT",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2746,
+    "fields": {
+        "name_german": "Steinkohle Direktfeuerung",
+        "name_english": "hard coal direct feed furnace",
+        "acronym_german": "SK_DF",
+        "acronym_english": "HC_DFF",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2747,
+    "fields": {
+        "name_german": "Scheitholzvergaserkessel",
+        "name_english": "log wood gasification boiler",
+        "acronym_german": "SH_VK",
+        "acronym_english": "LW_GB",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2748,
+    "fields": {
+        "name_german": "Scheitholz-Ofen",
+        "name_english": "log wood stove",
+        "acronym_german": "SH_O",
+        "acronym_english": "LW_S",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2749,
+    "fields": {
+        "name_german": "PV-Anlage",
+        "name_english": "photovolaik plant",
+        "acronym_german": "PV",
+        "acronym_english": "PV",
+        "type": 521
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2750,
+    "fields": {
+        "name_german": "Holzpellet-Kessel leicht",
+        "name_english": "wood pellet boiler light",
+        "acronym_german": "HP_lK",
+        "acronym_english": "WP_lB",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2751,
+    "fields": {
+        "name_german": "Holzpellet-Kessel schwer",
+        "name_english": "wood pellet boiler heavy",
+        "acronym_german": "HP_sK",
+        "acronym_english": "WP_hB",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2752,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel",
+        "name_english": "wood pellet integrated boiler",
+        "acronym_german": "HP_iK",
+        "acronym_english": "WP_iB",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2753,
+    "fields": {
+        "name_german": "Mikro-Holzgas-BHKW für torrefizierte Holzpellets",
+        "name_english": "micro wood gas CHPU for torrefied wood pellets",
+        "acronym_german": "TWPG_CHPU",
+        "acronym_english": "TWPG_CHPU",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2754,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets",
+        "name_english": "wood gas CHPU for wood pellets",
+        "acronym_german": "WPG_CHPU",
+        "acronym_english": "WPG_CHPU",
+        "type": 522
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2755,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Rapsöl | Dieseloptimiert",
+        "name_english": "hydrotreating-vegetable-oils from rape seed | diesel optimized",
+        "acronym_german": "HEFA_Diesel_Raps",
+        "acronym_english": "HEFA_Diesel_Rape",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2756,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Rapsöl | Kerosinoptimiert",
+        "name_english": "hydrotreating-vegetable-oils from rape seed | kerosene optimized",
+        "acronym_german": "HEFA_SAF_Raps",
+        "acronym_english": "HEFA_SAF_Rape",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2757,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Palmöl | Dieseloptimiert",
+        "name_english": "hydrotreating-vegetable-oils from palm oil | diesel optimized",
+        "acronym_german": "HEFA_Diesel_Palm",
+        "acronym_english": "HEFA_Diesel_Palm",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2758,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Palmöl | Kerosinoptimiert",
+        "name_english": "hydrotreating-vegetable-oils from palm oil | kerosene optimized",
+        "acronym_german": "HEFA_SAF_Palm",
+        "acronym_english": "HEFA_SAF_Palm",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2759,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Altspeiseöl | Dieseloptimiert",
+        "name_english": "hydrotreating-vegetable-oils from UCO | diesel optimized",
+        "acronym_german": "HEFA_Diesel_Restoffe",
+        "acronym_english": "HEFA_Diesel_Residues",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2760,
+    "fields": {
+        "name_german": "Hydrotreating-Anlage für Altspeiseöl | Kerosinoptimiert",
+        "name_english": "hydrotreating-vegetable-oils from UCO | kerosene optimized",
+        "acronym_german": "HEFA_SAF_Reststoffe",
+        "acronym_english": "HEFA_SAF_Residues",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2761,
+    "fields": {
+        "name_german": "Biomass-to-Liquid-Anlage | Dieseloptimiert",
+        "name_english": "biomass to liquid plant | diesel optimized",
+        "acronym_german": "BTL_FT_Diesel_Ligno",
+        "acronym_english": "BTL_FT_Diesel_Ligno",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2762,
+    "fields": {
+        "name_german": "Biomass-to-Liquid-Anlage | Kerosinoptimiert",
+        "name_english": "biomass to liquid plant | kerosene optimized",
+        "acronym_german": "BTL_FT_SAF_Ligno",
+        "acronym_english": "BTL_FT_SAF_Ligno",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2763,
+    "fields": {
+        "name_german": "Power-to-Liquid-Produktion  | Dieseloptimiert",
+        "name_english": "power to liquid production | diesel optimized",
+        "acronym_german": "PTL_FT_Diesel",
+        "acronym_english": "PTL_FT_Diesel",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2764,
+    "fields": {
+        "name_german": "Power-to-Liquid-Produktion  | Kerosinoptimiert",
+        "name_english": "power to liquid production | kerosene optimized",
+        "acronym_german": "PTL_FT_SAF",
+        "acronym_english": "PTL_FT_SAF",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2765,
+    "fields": {
+        "name_german": "verflüssigtes SNG",
+        "name_english": "liquified SNG",
+        "acronym_german": "BTG_LNG_Ligno",
+        "acronym_english": "BTG_LNG_Ligno",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2766,
+    "fields": {
+        "name_german": "verflüssigtes Abfallbiomethan",
+        "name_english": "LiquefiedWasteCH4",
+        "acronym_german": "LNG_Reststoffe",
+        "acronym_english": "LNG_Residues",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2767,
+    "fields": {
+        "name_german": "verflüssigtes NawaRo-Biomethan",
+        "name_english": "Liquefied CH4 from renewbale sources",
+        "acronym_german": "BMA_NWR_VF",
+        "acronym_english": "BMP_RS_L",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2768,
+    "fields": {
+        "name_german": "Power-to-Methanol",
+        "name_english": "Power-to-Methanol",
+        "acronym_german": "PTL_MeOH",
+        "acronym_english": "PTL_MeOH",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2769,
+    "fields": {
+        "name_german": "Methanol aus Schwarzlauge",
+        "name_english": "black liquor to methanol",
+        "acronym_german": "MeOH_Black liquor",
+        "acronym_english": "MeOH_Black liquor",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2770,
+    "fields": {
+        "name_german": "Biomethanol-to-Gasoline",
+        "name_english": "Biomethanol-to-Gasoline",
+        "acronym_german": "BTL_MTG_Ligno",
+        "acronym_english": "BTL_MTG_Ligno",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2771,
+    "fields": {
+        "name_german": "Ethanol zu Kerosin",
+        "name_english": "ethnaol to kerosene",
+        "acronym_german": "ATJ_EtOH",
+        "acronym_english": "ATJ_EtOH",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2772,
+    "fields": {
+        "name_german": "Power-to-liquified-Gas ",
+        "name_english": "power to liquified gas",
+        "acronym_german": "PTG_LNG",
+        "acronym_english": "PTG_LNG",
+        "type": 524
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2773,
+    "fields": {
+        "name_german": "Wasserstoff Direktreduktionsverfahren",
+        "name_english": "Hydrogen direct reduction process",
+        "acronym_german": "H2-DRI",
+        "acronym_english": "H2-DRI",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchaingroup",
+    "pk": 2774,
+    "fields": {
+        "name_german": "PtG-Direkt-Feuerung",
+        "name_english": "PtG-Direct-Firing",
+        "acronym_german": "PTG_DF",
+        "acronym_english": "PTG_DF",
+        "type": 523
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1063,
+    "fields": {
+        "name_german": "STA_15qm",
+        "name_english": "STS_15sqm",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1064,
+    "fields": {
+        "name_german": "GT Kombi_20kW",
+        "name_english": "NGB combi 20kW",
+        "group": 2703
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1065,
+    "fields": {
+        "name_german": "GBW Kombi_20kW",
+        "name_english": "NGCB combi 20kW",
+        "group": 2704
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1066,
+    "fields": {
+        "name_german": "GFC Kombi 19kW",
+        "name_english": "NGFC combi 19 kW",
+        "group": 2705
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1067,
+    "fields": {
+        "name_german": "LWP 20kW",
+        "name_english": "AHP 20kW",
+        "group": 2706
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1068,
+    "fields": {
+        "name_german": "Braunkohle KW_1000MW",
+        "name_english": "Lignite PP_1000MW",
+        "group": 2708
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1069,
+    "fields": {
+        "name_german": "Steinkohle KW_800MW",
+        "name_english": "Hard coal PP_800MW",
+        "group": 2709
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1070,
+    "fields": {
+        "name_german": "GuD_KWK_500MW",
+        "name_english": "CCGT 500MW",
+        "group": 2710
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1071,
+    "fields": {
+        "name_german": "Gturbine KW_200MW",
+        "name_english": "GT 200MW",
+        "group": 2711
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1072,
+    "fields": {
+        "name_german": "BGA 75k PQ1 Gülle",
+        "name_english": "BGP 75k PQ1 slurry",
+        "group": 2665
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1073,
+    "fields": {
+        "name_german": "BGA 1M PQ2,2 NawaRo",
+        "name_english": "BGP 1M PQ2.2 energy crops",
+        "group": 2665
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1074,
+    "fields": {
+        "name_german": "BGA 1M25 PQ2,2 NawaRo/Gülle",
+        "name_english": "BGP 1M25 PQ2.2 energy crops/manure",
+        "group": 2665
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1075,
+    "fields": {
+        "name_german": "BGA 2M5 PQ5 NawaRo/Gülle",
+        "name_english": "BGP 2M5 PQ5 energy crops/manure",
+        "group": 2665
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1076,
+    "fields": {
+        "name_german": "BGA 1M5 PQ2,2 Abfall",
+        "name_english": "BGP 1M5 PQ2.2 waste",
+        "group": 2665
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1077,
+    "fields": {
+        "name_german": "BMB_500k_PQ6,7",
+        "name_english": "BMCHPU_500k_PQ6,7",
+        "group": 2726
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1078,
+    "fields": {
+        "name_german": "BMB_1M_PQ6,7",
+        "name_english": "BMCHPU_1M_PQ6,7",
+        "group": 2726
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1079,
+    "fields": {
+        "name_german": "BMB_10M_PQ6,7",
+        "name_english": "BMCHPU_10M_PQ6,7",
+        "group": 2726
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1080,
+    "fields": {
+        "name_german": "GUD 525M",
+        "name_english": "CCGT 525M",
+        "group": 2694
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1081,
+    "fields": {
+        "name_german": "GT 320M",
+        "name_english": "OCGT 320M",
+        "group": 2695
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1082,
+    "fields": {
+        "name_german": "HHKW 4M8",
+        "name_english": "WPP 4M8",
+        "group": 2697
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1083,
+    "fields": {
+        "name_german": "AHKW_20M",
+        "name_english": "WWPP 20M",
+        "group": 2698
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1084,
+    "fields": {
+        "name_german": "KSVG 30kEW - 45kW",
+        "name_english": "SSF 30kPE - 45kW",
+        "group": 2699
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1085,
+    "fields": {
+        "name_german": "PZK_28M",
+        "name_english": "PPPP_28M",
+        "group": 2700
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1086,
+    "fields": {
+        "name_german": "HVG-BHKW 165k",
+        "name_english": "WG-CHPU 165k",
+        "group": 2701
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1087,
+    "fields": {
+        "name_german": "HVG-BHKW 68k",
+        "name_english": "WG-CHPU 68k",
+        "group": 2701
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1088,
+    "fields": {
+        "name_german": "HVG-BHKW 49k",
+        "name_english": "WG-CHPU 49k",
+        "group": 2701
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1089,
+    "fields": {
+        "name_german": "HVG-BHKW 35k",
+        "name_english": "WG-CHPU 35k",
+        "group": 2701
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1090,
+    "fields": {
+        "name_german": "Elektroheizung 3,5kW",
+        "name_english": "electric heater 3.5kW",
+        "group": 2731
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1091,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 11,6m^{-2}",
+        "name_english": "solar thermal plant 11.6m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1092,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 4kW",
+        "name_english": "air-water heat pump 4kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1093,
+    "fields": {
+        "name_german": "PV-Anlage 2,5kW",
+        "name_english": "photovolaik plant 2.5kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1094,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 3kW",
+        "name_english": "air-water heat pump 3kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1095,
+    "fields": {
+        "name_german": "PV-Anlage 1,1kW",
+        "name_english": "photovolaik plant 1.1kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1096,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 6,954m^{-2}",
+        "name_english": "solar thermal plant 6.954m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1097,
+    "fields": {
+        "name_german": "Holzpellet-Kessel leicht 1,7kW",
+        "name_english": "wood pellet boiler light 1.7kW",
+        "group": 2750
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1098,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 8,7m^{-2}",
+        "name_english": "solar thermal plant 8.7m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1099,
+    "fields": {
+        "name_german": "Scheitholz-Ofen 5kW",
+        "name_english": "log wood stove 5kW",
+        "group": 2748
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1100,
+    "fields": {
+        "name_german": "Mikro-Holzgas-BHKW für torrefizierte Holzpellets 2,4kW",
+        "name_english": "micro wood gas CHPU for torrefied wood pellets 2.4kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1101,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 5,5kW",
+        "name_english": "gas condensing boiler 5.5kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1102,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 5,9kW",
+        "name_english": "gas condensing boiler 5.9kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1103,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 3,12m^{-2}",
+        "name_english": "solar thermal plant 3.12m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1104,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 5,5kW",
+        "name_english": "gas fired PEM fuel cell 5.5kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1105,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 5kW",
+        "name_english": "air-water heat pump 5kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1106,
+    "fields": {
+        "name_german": "PV-Anlage 4kW",
+        "name_english": "photovolaik plant 4kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1107,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 5kW",
+        "name_english": "wood pellet integrated boiler 5kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1108,
+    "fields": {
+        "name_german": "Holzpellet-Kessel leicht 4,9kW",
+        "name_english": "wood pellet boiler light 4.9kW",
+        "group": 2750
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1109,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 4,6m^{-2}",
+        "name_english": "solar thermal plant 4.6m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1110,
+    "fields": {
+        "name_german": "Scheitholz-Vergaserkessel 20kW",
+        "name_english": "log wood gasification boiler 20kW",
+        "group": 2747
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1111,
+    "fields": {
+        "name_german": "Mikro-Holzgas-BHKW für torrefizierte Holzpellets 3,5kW",
+        "name_english": "micro wood gas CHPU for torrefied wood pellets 3.5kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1112,
+    "fields": {
+        "name_german": "PV-Anlage 2kW",
+        "name_english": "photovolaik plant 2kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1113,
+    "fields": {
+        "name_german": "Mikro-Holzgas-BHKW für torrefizierte Holzpellets 6,1kW",
+        "name_english": "micro wood gas CHPU for torrefied wood pellets 6.1kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1114,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 7,5kW",
+        "name_english": "gas condensing boiler 7.5kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1115,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 7,4kW",
+        "name_english": "gas condensing boiler 7.4kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1116,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 7kW",
+        "name_english": "gas condensing boiler 7kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1117,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 4,2m^{-2}",
+        "name_english": "solar thermal plant 4.2m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1118,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 6,6kW",
+        "name_english": "gas fired PEM fuel cell 6.6kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1119,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 7,5kW",
+        "name_english": "air-water heat pump 7.5kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1120,
+    "fields": {
+        "name_german": "PV-Anlage 5kW",
+        "name_english": "photovolaik plant 5kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1121,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 4,5kW",
+        "name_english": "air-water heat pump 4.5kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1122,
+    "fields": {
+        "name_german": "PV-Anlage 3kW",
+        "name_english": "photovolaik plant 3kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1123,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 7,5kW",
+        "name_english": "wood pellet integrated boiler 7.5kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1124,
+    "fields": {
+        "name_german": "Holzpellet-Kessel leicht 6,2kW",
+        "name_english": "wood pellet boiler light 6.2kW",
+        "group": 2750
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1125,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 7m^{-2}",
+        "name_english": "solar thermal plant 7m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1126,
+    "fields": {
+        "name_german": "Mikro-Holzgas-BHKW für torrefizierte Holzpellets 5kW",
+        "name_english": "micro wood gas CHPU for torrefied wood pellets 5kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1127,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 11,1kW",
+        "name_english": "gas condensing boiler 11.1kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1128,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 10,2kW",
+        "name_english": "gas condensing boiler 10.2kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1129,
+    "fields": {
+        "name_german": "Scheitholz-Ofen 8kW",
+        "name_english": "log wood stove 8kW",
+        "group": 2748
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1130,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 10,5kW",
+        "name_english": "gas condensing boiler 10.5kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1131,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 6,3m^{-2}",
+        "name_english": "solar thermal plant 6.3m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1132,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 9,9kW",
+        "name_english": "gas fired PEM fuel cell 9.9kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1133,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 10kW",
+        "name_english": "air-water heat pump 10kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1134,
+    "fields": {
+        "name_german": "PV-Anlage 7kW",
+        "name_english": "photovolaik plant 7kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1135,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 6kW",
+        "name_english": "air-water heat pump 6kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1136,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 10,5kW",
+        "name_english": "wood pellet integrated boiler 10.5kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1137,
+    "fields": {
+        "name_german": "Holzpellet-Kessel leicht 9,6kW",
+        "name_english": "wood pellet boiler light 9.6kW",
+        "group": 2750
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1138,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 9,3m^{-2}",
+        "name_english": "solar thermal plant 9.3m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1139,
+    "fields": {
+        "name_german": "Mikro-Holzgas-BHKW für torrefizierte Holzpellets 6,6kW",
+        "name_english": "micro wood gas CHPU for torrefied wood pellets 6.6kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1140,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 15,3kW",
+        "name_english": "gas condensing boiler 15.3kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1141,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 13,8kW",
+        "name_english": "gas condensing boiler 13.8kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1142,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 13,9kW",
+        "name_english": "gas condensing boiler 13.9kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1143,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 7,35m^{-2}",
+        "name_english": "solar thermal plant 7.35m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1144,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 13kW",
+        "name_english": "gas fired PEM fuel cell 13kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1145,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 15kW",
+        "name_english": "air-water heat pump 15kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1146,
+    "fields": {
+        "name_german": "PV-Anlage 9kW",
+        "name_english": "photovolaik plant 9kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1147,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 9kW",
+        "name_english": "air-water heat pump 9kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1148,
+    "fields": {
+        "name_german": "PV-Anlage 6kW",
+        "name_english": "photovolaik plant 6kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1149,
+    "fields": {
+        "name_german": "Scheitholz-Ofen 9kW",
+        "name_english": "log wood stove 9kW",
+        "group": 2748
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1150,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 14,9kW",
+        "name_english": "wood pellet integrated boiler 14.9kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1151,
+    "fields": {
+        "name_german": "Holzpellet-Kessel leicht 12,3kW",
+        "name_english": "wood pellet boiler light 12.3kW",
+        "group": 2750
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1152,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 10,88888888888889m^{-2}",
+        "name_english": "solar thermal plant 10.88888888888889m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1153,
+    "fields": {
+        "name_german": "Mikro-Holzgas-BHKW für torrefizierte Holzpellets 8,8kW",
+        "name_english": "micro wood gas CHPU for torrefied wood pellets 8.8kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1154,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 21,7kW",
+        "name_english": "gas condensing boiler 21.7kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1155,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 19kW",
+        "name_english": "gas condensing boiler 19kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1156,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 11,4m^{-2}",
+        "name_english": "solar thermal plant 11.4m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1157,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 17,9kW",
+        "name_english": "gas fired PEM fuel cell 17.9kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1158,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 20kW",
+        "name_english": "air-water heat pump 20kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1159,
+    "fields": {
+        "name_german": "PV-Anlage 12kW",
+        "name_english": "photovolaik plant 12kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1160,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 20kW",
+        "name_english": "wood pellet integrated boiler 20kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1161,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 19m^{-2}",
+        "name_english": "solar thermal plant 19m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1162,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 10,6kW",
+        "name_english": "wood gas CHPU for wood pellets 10.6kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1163,
+    "fields": {
+        "name_german": "Mikro-Holzgas-BHKW für torrefizierte Holzpellets 23kW",
+        "name_english": "micro wood gas CHPU for torrefied wood pellets 23kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1164,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 82,5kW",
+        "name_english": "gas condensing boiler 82.5kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1165,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 87,4kW",
+        "name_english": "gas condensing boiler 87.4kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1166,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 36,7m^{-2}",
+        "name_english": "solar thermal plant 36.7m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1167,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 39,38461538461538kW",
+        "name_english": "gas fired PEM fuel cell 39.38461538461538kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1168,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 54,61538461538462kW",
+        "name_english": "gas condensing boiler 54.61538461538462kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1169,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 80kW",
+        "name_english": "air-water heat pump 80kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1170,
+    "fields": {
+        "name_german": "PV-Anlage 52kW",
+        "name_english": "photovolaik plant 52kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1171,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 70,1kW",
+        "name_english": "wood pellet integrated boiler 70.1kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1172,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 61,9m^{-2}",
+        "name_english": "solar thermal plant 61.9m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1173,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 78,6kW",
+        "name_english": "wood gas CHPU for wood pellets 78.6kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1174,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 43,4kW",
+        "name_english": "wood gas CHPU for wood pellets 43.4kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1175,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 50kW",
+        "name_english": "air-water heat pump 50kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1176,
+    "fields": {
+        "name_german": "PV-Anlage 24kW",
+        "name_english": "photovolaik plant 24kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1177,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 44,9kW",
+        "name_english": "gas condensing boiler 44.9kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1178,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 33kW",
+        "name_english": "gas condensing boiler 33kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1179,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 69m^{-2}",
+        "name_english": "solar thermal plant 69m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1180,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 19,864864864864867kW",
+        "name_english": "gas fired PEM fuel cell 19.864864864864867kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1181,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 19,135135135135133kW",
+        "name_english": "gas condensing boiler 19.135135135135133kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1182,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 40kW",
+        "name_english": "air-water heat pump 40kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1183,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 82m^{-2}",
+        "name_english": "solar thermal plant 82m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1184,
+    "fields": {
+        "name_german": "PV-Anlage 16kW",
+        "name_english": "photovolaik plant 16kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1185,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 44,9kW",
+        "name_english": "wood pellet integrated boiler 44.9kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1186,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 73m^{-2}",
+        "name_english": "solar thermal plant 73m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1187,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 30kW",
+        "name_english": "air-water heat pump 30kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1188,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 23kW",
+        "name_english": "wood pellet integrated boiler 23kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1189,
+    "fields": {
+        "name_german": "PV-Anlage 19kW",
+        "name_english": "photovolaik plant 19kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1190,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 34,8kW",
+        "name_english": "wood gas CHPU for wood pellets 34.8kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1191,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 25,4kW",
+        "name_english": "gas condensing boiler 25.4kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1192,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 25kW",
+        "name_english": "gas condensing boiler 25kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1193,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 14,1m^{-2}",
+        "name_english": "solar thermal plant 14.1m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1194,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 23,5kW",
+        "name_english": "gas fired PEM fuel cell 23.5kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1195,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 25kW",
+        "name_english": "air-water heat pump 25kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1196,
+    "fields": {
+        "name_german": "PV-Anlage 14kW",
+        "name_english": "photovolaik plant 14kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1197,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 25,9kW",
+        "name_english": "wood pellet integrated boiler 25.9kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1198,
+    "fields": {
+        "name_german": "Scheitholzvergaser-Kessel 30kW",
+        "name_english": "log wood gasification boiler 30kW",
+        "group": 2747
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1199,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 20,9m^{-2}",
+        "name_english": "solar thermal plant 20.9m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1200,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 13,4kW",
+        "name_english": "wood gas CHPU for wood pellets 13.4kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1201,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 12kW",
+        "name_english": "air-water heat pump 12kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1202,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 31,3kW",
+        "name_english": "gas condensing boiler 31.3kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1203,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 28kW",
+        "name_english": "gas condensing boiler 28kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1204,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 60m^{-2}",
+        "name_english": "solar thermal plant 60m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1205,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 25,9kW",
+        "name_english": "gas fired PEM fuel cell 25.9kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1206,
+    "fields": {
+        "name_german": "PV-Anlage 29kW",
+        "name_english": "photovolaik plant 29kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1207,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 31kW",
+        "name_english": "wood pellet integrated boiler 31kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1208,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 27kW",
+        "name_english": "wood pellet integrated boiler 27kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1209,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 28,6kW",
+        "name_english": "wood gas CHPU for wood pellets 28.6kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1210,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 22,7kW",
+        "name_english": "wood gas CHPU for wood pellets 22.7kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1211,
+    "fields": {
+        "name_german": "PV-Anlage 13kW",
+        "name_english": "photovolaik plant 13kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1212,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 48,3kW",
+        "name_english": "gas condensing boiler 48.3kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1213,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 37,6kW",
+        "name_english": "gas condensing boiler 37.6kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1214,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 103,57142857142857m^{-2}",
+        "name_english": "solar thermal plant 103.57142857142857m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1215,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 25,162162162162165kW",
+        "name_english": "gas fired PEM fuel cell 25.162162162162165kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1216,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 28,837837837837835kW",
+        "name_english": "gas condensing boiler 28.837837837837835kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1217,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 45kW",
+        "name_english": "air-water heat pump 45kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1218,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 126,08695652173913m^{-2}",
+        "name_english": "solar thermal plant 126.08695652173913m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1219,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 35kW",
+        "name_english": "wood pellet integrated boiler 35kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1220,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 108,75m^{-2}",
+        "name_english": "solar thermal plant 108.75m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1221,
+    "fields": {
+        "name_german": "Holzhackschnitzel-Kessel 35,6kW",
+        "name_english": "wood chips boiler 35.6kW",
+        "group": 2739
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1222,
+    "fields": {
+        "name_german": "PV-Anlage 25kW",
+        "name_english": "photovolaik plant 25kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1223,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 33,8kW",
+        "name_english": "wood pellet integrated boiler 33.8kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1224,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 33,8kW",
+        "name_english": "wood gas CHPU for wood pellets 33.8kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1225,
+    "fields": {
+        "name_german": "PV-Anlage 17kW",
+        "name_english": "photovolaik plant 17kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1226,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 44,8kW",
+        "name_english": "gas condensing boiler 44.8kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1227,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 40,6kW",
+        "name_english": "gas condensing boiler 40.6kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1228,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 22,2m^{-2}",
+        "name_english": "solar thermal plant 22.2m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1229,
+    "fields": {
+        "name_german": "PV-Anlage 21kW",
+        "name_english": "photovolaik plant 21kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1230,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 37kW",
+        "name_english": "wood pellet integrated boiler 37kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1231,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 42,3kW",
+        "name_english": "wood pellet integrated boiler 42.3kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1232,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 16,1kW",
+        "name_english": "wood gas CHPU for wood pellets 16.1kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1233,
+    "fields": {
+        "name_german": "PV-Anlage 10kW",
+        "name_english": "photovolaik plant 10kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1234,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 35kW",
+        "name_english": "gas condensing boiler 35kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1235,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 31,7kW",
+        "name_english": "gas condensing boiler 31.7kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1236,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 21m^{-2}",
+        "name_english": "solar thermal plant 21m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1237,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 15,666666666666666kW",
+        "name_english": "gas fired PEM fuel cell 15.666666666666666kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1238,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 14,333333333333334kW",
+        "name_english": "gas condensing boiler 14.333333333333334kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1239,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 35kW",
+        "name_english": "air-water heat pump 35kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1240,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 31,1m^{-2}",
+        "name_english": "solar thermal plant 31.1m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1241,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 36,1kW",
+        "name_english": "wood pellet integrated boiler 36.1kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1242,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 22,1m^{-2}",
+        "name_english": "solar thermal plant 22.1m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1243,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 30kW",
+        "name_english": "wood pellet integrated boiler 30kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1244,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 30,7kW",
+        "name_english": "wood gas CHPU for wood pellets 30.7kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1245,
+    "fields": {
+        "name_german": "PV-Anlage 11kW",
+        "name_english": "photovolaik plant 11kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1246,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 62,5kW",
+        "name_english": "gas condensing boiler 62.5kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1247,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 56,7kW",
+        "name_english": "gas condensing boiler 56.7kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1248,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 27,3m^{-2}",
+        "name_english": "solar thermal plant 27.3m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1249,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 26,384615384615383kW",
+        "name_english": "gas fired PEM fuel cell 26.384615384615383kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1250,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 30,615384615384617kW",
+        "name_english": "gas condensing boiler 30.615384615384617kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1251,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 60kW",
+        "name_english": "air-water heat pump 60kW",
+        "group": 2742
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1252,
+    "fields": {
+        "name_german": "PV-Anlage 27kW",
+        "name_english": "photovolaik plant 27kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1253,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 54,8kW",
+        "name_english": "wood pellet integrated boiler 54.8kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1254,
+    "fields": {
+        "name_german": "PV-Anlage 20kW",
+        "name_english": "photovolaik plant 20kW",
+        "group": 2749
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1255,
+    "fields": {
+        "name_german": "Holzpellet integrierter Kessel 50kW",
+        "name_english": "wood pellet integrated boiler 50kW",
+        "group": 2752
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1256,
+    "fields": {
+        "name_german": "Holzgas-BHKW für Holzpellets 29,4kW",
+        "name_english": "wood gas CHPU for wood pellets 29.4kW",
+        "group": 2753
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1257,
+    "fields": {
+        "name_german": "Steinkohleheizkraftwerk 11400kW",
+        "name_english": "hard coal fired cogeneration plant 11400kW",
+        "group": 2729
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1258,
+    "fields": {
+        "name_german": "Gas- und Dampfturbinenkraftwerk 11400kW",
+        "name_english": "combined cycle gas turbine 11400kW",
+        "group": 2733
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1259,
+    "fields": {
+        "name_german": "Holzhackschnitzel-Retrofit Steinkohleheizkraftwerk 11400kW",
+        "name_english": "wood chips retro fitted hard coal fired cogeneration plant 11400kW",
+        "group": 2738
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1260,
+    "fields": {
+        "name_german": "Hochtemperatur-Wärmepumpe 4500kW",
+        "name_english": "high temperature heat pump 4500kW",
+        "group": 2743
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1261,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 2000m^{-2}",
+        "name_english": "solar thermal plant 2000m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1262,
+    "fields": {
+        "name_german": "Biomethan-BHKW 6250kW",
+        "name_english": "biomethane CHPU 6250kW",
+        "group": 2726
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1263,
+    "fields": {
+        "name_german": "Altholz-Heizkraftwerk 4650kW",
+        "name_english": "waste wood heating unit 4650kW",
+        "group": 2698
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1264,
+    "fields": {
+        "name_german": "Holzhackschnitzel-Kessel NonekW",
+        "name_english": "wood chips boiler NonekW",
+        "group": 2739
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1265,
+    "fields": {
+        "name_german": "Holzhackschnitzelvergaser-BHKW 8400kW",
+        "name_english": "wood chips gasification CHPU 8400kW",
+        "group": 2740
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1266,
+    "fields": {
+        "name_german": "Gasbrennwert-Kessel 5000kW",
+        "name_english": "gas condensing boiler 5000kW",
+        "group": 2737
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1267,
+    "fields": {
+        "name_german": "PEM-Brennstoffzelle 5000kW",
+        "name_english": "gas fired PEM fuel cell 5000kW",
+        "group": 2734
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1268,
+    "fields": {
+        "name_german": "Hochtemperatur-Wärmepumpe 5500kW",
+        "name_english": "high temperature heat pump 5500kW",
+        "group": 2743
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1269,
+    "fields": {
+        "name_german": "Solarthermie-Anlage 1750m^{-2}",
+        "name_english": "solar thermal plant 1750m^{-2}",
+        "group": 2702
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1270,
+    "fields": {
+        "name_german": "Holzhackschnitzel-Kessel 5150kW",
+        "name_english": "wood chips boiler 5150kW",
+        "group": 2739
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1271,
+    "fields": {
+        "name_german": "Holzhackschnitzelvergaser-BHKW 3570kW",
+        "name_english": "wood chips gasification CHPU 3570kW",
+        "group": 2740
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1272,
+    "fields": {
+        "name_german": "Wärmepumpe 3300kW",
+        "name_english": "heat pump 3300kW",
+        "group": 2706
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1273,
+    "fields": {
+        "name_german": "Holzhackschnitzel-Kessel 4670kW",
+        "name_english": "wood chips boiler 4670kW",
+        "group": 2739
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1274,
+    "fields": {
+        "name_german": "Erdgas-Kessel 3370kW",
+        "name_english": "natural gas boiler 3370kW",
+        "group": 2736
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1275,
+    "fields": {
+        "name_german": "Gasturbinen-Heizkraftwerk 3370kW",
+        "name_english": "gas turbine  3370kW",
+        "group": 2732
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1276,
+    "fields": {
+        "name_german": "Biomethan-Gasturbine mit Dampferzeuger 3370kW",
+        "name_english": "biomethane gas turbine with steam generator 3370kW",
+        "group": 2728
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1277,
+    "fields": {
+        "name_german": "Holzhackschnitzel-Kessel 3370kW",
+        "name_english": "wood chips boiler 3370kW",
+        "group": 2739
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1278,
+    "fields": {
+        "name_german": "Holzgas-Gasturbinen-Heizkraftwerk 3370kW",
+        "name_english": "wood gas gas turbine  3370kW",
+        "group": 2745
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1279,
+    "fields": {
+        "name_german": "Gasbetriebener Dampferzeuger 5kW",
+        "name_english": "gas fired steam generator 5kW",
+        "group": 2735
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1280,
+    "fields": {
+        "name_german": "Steinkohle Direktfeuerung NonekW",
+        "name_english": "hard coal direct feed furnace NonekW",
+        "group": 2746
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1281,
+    "fields": {
+        "name_german": "Lichtbogenofen NonekW",
+        "name_english": "electric arc stove NonekW",
+        "group": 2730
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1282,
+    "fields": {
+        "name_german": "Biomethan Direktfeuerung NonekW",
+        "name_english": "biomethane direct furnace NonekW",
+        "group": 2727
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1283,
+    "fields": {
+        "name_german": "Holzgas-Direktfeuerung NonekW",
+        "name_english": "wood gas direct feed furnace NonekW",
+        "group": 2744
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1284,
+    "fields": {
+        "name_german": "Biomasse Direktfeuerung NonekW",
+        "name_english": "biomass direct furnace NonekW",
+        "group": 2725
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1285,
+    "fields": {
+        "name_german": "BMA_NWR_9",
+        "name_english": "BMP_RS_9",
+        "group": 2669
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1286,
+    "fields": {
+        "name_german": "BMA_AUR_9",
+        "name_english": "BMP_RW_9",
+        "group": 2670
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1287,
+    "fields": {
+        "name_german": "BEOH_ZR_39",
+        "name_english": "BENP_SB_39",
+        "group": 2671
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1288,
+    "fields": {
+        "name_german": "BEOH_GS_197",
+        "name_english": "BENP_GS_197",
+        "group": 2672
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1289,
+    "fields": {
+        "name_german": "BEOH_LC_50",
+        "name_english": "BENP_LC_50",
+        "group": 2673
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1290,
+    "fields": {
+        "name_german": "BEOH_RZ_78",
+        "name_english": "BENP_CS_78",
+        "group": 2674
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1291,
+    "fields": {
+        "name_german": "RME_77",
+        "name_english": "RME_77",
+        "group": 2675
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1292,
+    "fields": {
+        "name_german": "AÖME_25",
+        "name_english": "UCOME_25",
+        "group": 2676
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1293,
+    "fields": {
+        "name_german": "TME_51",
+        "name_english": "AFME_51",
+        "group": 2677
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1294,
+    "fields": {
+        "name_german": "PME_80",
+        "name_english": "PME_80",
+        "group": 2678
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1295,
+    "fields": {
+        "name_german": "SME_79",
+        "name_english": "SME_79",
+        "group": 2679
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1296,
+    "fields": {
+        "name_german": "HEFA_Diesel_Raps_51",
+        "name_english": "HEFA_Diesel_Rape_51",
+        "group": 2755
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1297,
+    "fields": {
+        "name_german": "HEFA_SAF_Raps_37",
+        "name_english": "HEFA_SAF_Rape_37",
+        "group": 2756
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1298,
+    "fields": {
+        "name_german": "HEFA_Diesel_Palm_51",
+        "name_english": "HEFA_Diesel_Palm_51",
+        "group": 2757
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1299,
+    "fields": {
+        "name_german": "HEFA_SAF_Palm_36",
+        "name_english": "HEFA_SAF_Palm_36",
+        "group": 2758
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1300,
+    "fields": {
+        "name_german": "HEFA_Diesel_Restoffe_51",
+        "name_english": "HEFA_Diesel_Residues_51",
+        "group": 2759
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1301,
+    "fields": {
+        "name_german": "HEFA_SAF_Reststoffe_37",
+        "name_english": "HEFA_SAF_Residues_37",
+        "group": 2760
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1302,
+    "fields": {
+        "name_german": "SNG_63",
+        "name_english": "SNG_63",
+        "group": 2683
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1303,
+    "fields": {
+        "name_german": "BTL_FT_Diesel_Ligno_22",
+        "name_english": "BTL_FT_Diesel_Ligno_22",
+        "group": 2761
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1304,
+    "fields": {
+        "name_german": "BTL_FT_SAF_Ligno_19",
+        "name_english": "BTL_FT_SAF_Ligno_19",
+        "group": 2762
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1305,
+    "fields": {
+        "name_german": "PtG_CH4_8",
+        "name_english": "PtG_CH4_8",
+        "group": 2685
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1306,
+    "fields": {
+        "name_german": "PtG_H2_0",
+        "name_english": "PtG_H2_0",
+        "group": 2686
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1307,
+    "fields": {
+        "name_german": "PTL_FT_Diesel_4",
+        "name_english": "PTL_FT_Diesel_4",
+        "group": 2763
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1308,
+    "fields": {
+        "name_german": "PTL_FT_SAF_4",
+        "name_english": "PTL_FT_SAF_4",
+        "group": 2764
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1309,
+    "fields": {
+        "name_german": "LPG_1",
+        "name_english": "LPG_1",
+        "group": 2688
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1310,
+    "fields": {
+        "name_german": "CNG_1",
+        "name_english": "CNG_1",
+        "group": 2689
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1311,
+    "fields": {
+        "name_german": "LNG_1",
+        "name_english": "LNG_1",
+        "group": 2690
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1312,
+    "fields": {
+        "name_german": "MEOH_85",
+        "name_english": "MEOH_85",
+        "group": 2691
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1313,
+    "fields": {
+        "name_german": "WSA_BM_2",
+        "name_english": "HPP_BM_2",
+        "group": 2692
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1314,
+    "fields": {
+        "name_german": "BTG_LNG_Ligno_63",
+        "name_english": "BTG_LNG_Ligno_63",
+        "group": 2765
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1315,
+    "fields": {
+        "name_german": "LNG_Reststoffe_9",
+        "name_english": "LNG_Residues_9",
+        "group": 2766
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1316,
+    "fields": {
+        "name_german": "BMA_NWR_VF_9",
+        "name_english": "BMP_RS_L_9",
+        "group": 2767
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1317,
+    "fields": {
+        "name_german": "PTL_MeOH_1",
+        "name_english": "PTL_MeOH_1",
+        "group": 2768
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1318,
+    "fields": {
+        "name_german": "MeOH_Black liquor_1",
+        "name_english": "MeOH_Black liquor_1",
+        "group": 2769
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1319,
+    "fields": {
+        "name_german": "BTL_MTG_Ligno_73",
+        "name_english": "BTL_MTG_Ligno_73",
+        "group": 2770
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1320,
+    "fields": {
+        "name_german": "ATJ_EtOH_30",
+        "name_english": "ATJ_EtOH_30",
+        "group": 2771
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1321,
+    "fields": {
+        "name_german": "PTG_LNG_8",
+        "name_english": "PTG_LNG_8",
+        "group": 2772
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1322,
+    "fields": {
+        "name_german": "Biomethan-Direkt-Feuerung-HPR",
+        "name_english": "Biomethane-Direct-Firing-HPR",
+        "group": 2744
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1323,
+    "fields": {
+        "name_german": "Biomethan-Direkt-Feuerung-GobiGas",
+        "name_english": "Biomethane-Direct-Firing-GobiGas",
+        "group": 2744
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1324,
+    "fields": {
+        "name_german": "H2-DRI - Wasserstoff Direktreduktionsverfahren in der Stahlindustrie",
+        "name_english": "H2-DRI - Hydrogen direct reduction process in the steel industry",
+        "group": 2773
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1325,
+    "fields": {
+        "name_german": "PtG-Direkt-Feuerung",
+        "name_english": "PtG-Direct-Firing",
+        "group": 2774
+    }
+},
+{
+    "model": "processes.processchain",
+    "pk": 1326,
+    "fields": {
+        "name_german": "Luft-Wasser Wärmepumpe 16kW",
+        "name_english": "air-water heat pump 16kW",
+        "group": 2742
+    }
+}
+]

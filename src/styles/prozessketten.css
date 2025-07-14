@@ -1,0 +1,47 @@
+.data-node {
+  font-weight: bold;
+  color: #3730a3;
+  background-color: #e0e7ff;         
+  border: 2px solid #a5b4fc;
+  border-radius: 20px;
+  padding: 8px 12px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px -2px rgba(55, 48, 163, 0.10);
+  transition: box-shadow 0.15s, background 0.15s, border-color 0.15s;
+}
+
+.data-category-node {
+  font-weight: bold;
+  color: #593aaf;
+  background-color: #eef2ff;        
+  border: 2px solid #eac7fe;         
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-size: 18px;
+  box-shadow: 0 2px 4px -1px rgba(79, 70, 229, 0.08);
+  transition: box-shadow 0.15s, background 0.15s, border-color 0.15s;
+}
+
+/* Einzelitems: sehr leicht, filigraner */
+.data-item-node {
+  font-weight: bold;
+  color: #6366f1;
+  background-color: #f8f9ff;         
+  border: 2px solid #e0e7ff;         
+  border-radius: 12px;
+  padding: 6px 16px;
+  font-size: 16px;
+  box-shadow: 0 1px 2px -1px rgba(99, 102, 241, 0.06);
+  transition: box-shadow 0.15s, background 0.15s, border-color 0.15s;
+}
+
+/* Hover-Effekt für alle */
+.data-node:hover,
+.data-category-node:hover,
+.data-item-node:hover {
+  background-color: #c7d2fe;  
+  border-color: #f6f881;
+  color: rgb(56, 34, 155);
+  box-shadow: 0 8px 16px rgba(79, 70, 229, 0.12);
+  filter: brightness(1.04);
+}
